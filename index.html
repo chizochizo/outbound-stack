@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Outbound Stack — Top AI Cold Outreach & Deliverability Tools</title>
+  <meta name="description" content="Curated directory comparing the best cold email, lead scraping, and deliverability platforms.">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen py-12 px-4 sm:px-8">
+
+  <div class="max-w-4xl mx-auto">
+    <!-- Header -->
+    <header class="text-center mb-10">
+      <span class="text-xs uppercase tracking-widest text-blue-400 font-bold bg-blue-950/80 px-3 py-1 rounded-full border border-blue-800/50">Verified Tools 2026</span>
+      <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-white mt-3 mb-3">
+        Outbound Stack
+      </h1>
+      <p class="text-slate-400 text-sm sm:text-base max-w-xl mx-auto">
+        A curated database of top-rated cold email infrastructure, lead data enrichment, and inbox deliverability tools.
+      </p>
+    </header>
+
+    <!-- Filter Buttons -->
+    <div class="flex flex-wrap gap-2 justify-center mb-8">
+      <button onclick="filterSelection('all')" class="filter-btn active bg-blue-600 px-4 py-1.5 rounded-full text-xs font-semibold">All Tools</button>
+      <button onclick="filterSelection('email')" class="filter-btn bg-slate-900 border border-slate-800 hover:border-slate-700 px-4 py-1.5 rounded-full text-xs font-semibold">Cold Email</button>
+      <button onclick="filterSelection('enrichment')" class="filter-btn bg-slate-900 border border-slate-800 hover:border-slate-700 px-4 py-1.5 rounded-full text-xs font-semibold">Lead Enrichment</button>
+      <button onclick="filterSelection('deliverability')" class="filter-btn bg-slate-900 border border-slate-800 hover:border-slate-700 px-4 py-1.5 rounded-full text-xs font-semibold">Deliverability</button>
+    </div>
+
+    <!-- Cards Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+      <!-- 1. Saleshandy -->
+      <div class="tool-card email bg-slate-900 border border-slate-800 p-5 rounded-xl flex flex-col justify-between hover:border-slate-700 transition">
+        <div>
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="font-bold text-lg text-white">Saleshandy</h3>
+            <span class="text-[11px] bg-blue-900/60 text-blue-300 px-2 py-0.5 rounded">Cold Email</span>
+          </div>
+          <p class="text-slate-400 text-xs mb-4">Multichannel cold outreach platform featuring unlimited sender accounts, unified inbox, and automated sequences.</p>
+        </div>
+        <div class="flex justify-between items-center pt-3 border-t border-slate-800/80">
+          <span class="text-xs text-slate-300 font-medium">From $25/mo</span>
+          <a id="link-saleshandy" href="https://www.saleshandy.com" target="_blank" rel="noopener noreferrer" class="bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold px-3 py-1.5 rounded-lg transition">
+            Visit Tool →
+          </a>
+        </div>
+      </div>
+
+      <!-- 2. Instantly -->
+      <div class="tool-card email bg-slate-900 border border-slate-800 p-5 rounded-xl flex flex-col justify-between hover:border-slate-700 transition">
+        <div>
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="font-bold text-lg text-white">Instantly.ai</h3>
+            <span class="text-[11px] bg-blue-900/60 text-blue-300 px-2 py-0.5 rounded">Cold Email</span>
+          </div>
+          <p class="text-slate-400 text-xs mb-4">Scale cold campaigns with unlimited mailbox warmups, verified B2B lead search, and AI reply assistant.</p>
+        </div>
+        <div class="flex justify-between items-center pt-3 border-t border-slate-800/80">
+          <span class="text-xs text-slate-300 font-medium">From $37/mo</span>
+          <a id="link-instantly" href="https://instantly.ai" target="_blank" rel="noopener noreferrer" class="bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold px-3 py-1.5 rounded-lg transition">
+            Visit Tool →
+          </a>
+        </div>
+      </div>
+
+      <!-- 3. Clay -->
+      <div class="tool-card enrichment bg-slate-900 border border-slate-800 p-5 rounded-xl flex flex-col justify-between hover:border-slate-700 transition">
+        <div>
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="font-bold text-lg text-white">Clay.com</h3>
+            <span class="text-[11px] bg-emerald-900/60 text-emerald-300 px-2 py-0.5 rounded">Lead Enrichment</span>
+          </div>
+          <p class="text-slate-400 text-xs mb-4">Automate waterfall data enrichment across 50+ aggregators and generate personalized AI email openers.</p>
+        </div>
+        <div class="flex justify-between items-center pt-3 border-t border-slate-800/80">
+          <span class="text-xs text-slate-300 font-medium">Free plan available</span>
+          <a id="link-clay" href="https://clay.com" target="_blank" rel="noopener noreferrer" class="bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold px-3 py-1.5 rounded-lg transition">
+            Visit Tool →
+          </a>
+        </div>
+      </div>
+
+      <!-- 4. Hunter -->
+      <div class="tool-card enrichment bg-slate-900 border border-slate-800 p-5 rounded-xl flex flex-col justify-between hover:border-slate-700 transition">
+        <div>
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="font-bold text-lg text-white">Hunter.io</h3>
+            <span class="text-[11px] bg-emerald-900/60 text-emerald-300 px-2 py-0.5 rounded">Lead Enrichment</span>
+          </div>
+          <p class="text-slate-400 text-xs mb-4">Find professional email addresses behind any company domain and verify list deliverability in bulk.</p>
+        </div>
+        <div class="flex justify-between items-center pt-3 border-t border-slate-800/80">
+          <span class="text-xs text-slate-300 font-medium">Free trial available</span>
+          <a id="link-hunter" href="https://hunter.io" target="_blank" rel="noopener noreferrer" class="bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold px-3 py-1.5 rounded-lg transition">
+            Visit Tool →
+          </a>
+        </div>
+      </div>
+
+      <!-- 5. Warmup Inbox -->
+      <div class="tool-card deliverability bg-slate-900 border border-slate-800 p-5 rounded-xl flex flex-col justify-between hover:border-slate-700 transition">
+        <div>
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="font-bold text-lg text-white">Warmup Inbox</h3>
+            <span class="text-[11px] bg-purple-900/60 text-purple-300 px-2 py-0.5 rounded">Deliverability</span>
+          </div>
+          <p class="text-slate-400 text-xs mb-4">Standalone automated email warmup network designed to protect domain reputation and bypass spam filters.</p>
+        </div>
+        <div class="flex justify-between items-center pt-3 border-t border-slate-800/80">
+          <span class="text-xs text-slate-300 font-medium">From $12/mo</span>
+          <a id="link-warmupinbox" href="https://www.warmupinbox.com" target="_blank" rel="noopener noreferrer" class="bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold px-3 py-1.5 rounded-lg transition">
+            Visit Tool →
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    function filterSelection(category) {
+      const cards = document.querySelectorAll('.tool-card');
+      const buttons = document.querySelectorAll('.filter-btn');
+      buttons.forEach(btn => {
+        btn.classList.remove('bg-blue-600', 'active');
+        btn.classList.add('bg-slate-900');
+      });
+      event.target.classList.add('bg-blue-600', 'active');
+      event.target.classList.remove('bg-slate-900');
+
+      cards.forEach(card => {
+        if (category === 'all' || card.classList.contains(category)) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    }
+  </script>
+</body>
+</html>
